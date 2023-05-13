@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <title>Mutual Funds: Insights</title>
+    <style>
+       body{
+            margin: 0px;
+            margin-bottom: 0px;
+        }
+
+        #heading{
+            font-family: 'PT Serif', serif;
+            text-align: center;
+            color: rgb(28, 28, 28);
+            font-size: 50px;
+            font-weight: bold;
+            padding-top: 100px;
+        }
+
+        ul { 
+            padding: 0px;
+            font-family: 'PT Serif', serif;
+            text-align: center;
+            }
+        li {
+            display: inline-block;
+            width: auto;
+            list-style: outside none none;
+            padding-left: 20px;
+            font-weight:600;
+            padding-top: 10px;
+            color: rgb(28, 28, 28);
+            font-size: 14px;
+        }
+        li:hover{    
+            text-decoration: underline;
+        }
+        
+        #src{
+            text-decoration: none;
+            color: #3a86ff;
+        }
+        #src:visited{
+            color: #3a86ff;
+        }
+
+        #desc{
+            font-family: 'PT Serif', serif;
+            text-align: justify;
+            width: 50%;
+            color: rgb(28, 28, 28);
+            font-size: 16px;
+        }
+        
+        #sub-heading{
+            font-family: 'PT Serif', serif;
+            padding-left: 25%;
+            font-weight: bold;
+            color: rgb(28, 28, 28);
+            font-size: 18px;
+            padding-top: 15px;
+        }
+        #viz1683980643948{
+            padding-top: 50px;
+        }
+
+        #footer{
+            background-color: #fefae0;
+            height: 80px;
+            text-align: center;
+        }
+        #lst{
+            font-family: 'PT Serif', serif;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p id ="heading">Mutual Funds: Insights</p>
+    <ul id="nav">
+        <a href="index.html"><li>DASHBOARD</li></a>
+        <a href="contributor.html"><li>CONTRIBUTORS</li></a>
+    </ul>
+    <center>
+    <div class='tableauPlaceholder' id='viz1683980643948' style='position: center'>
+    <noscript>
+        <a href='#'>
+            <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MutualFundsIndiaInsights&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+        </a>
+    </noscript>
+    <object class='tableauViz'  style='display:none;'>
+
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MutualFundsIndiaInsights&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MutualFundsIndiaInsights&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object>
+
+    </div>                
+        <script type='text/javascript'>                   
+         var divElement = document.getElementById('viz1683980643948');                   
+         var vizElement = divElement.getElementsByTagName('object')[0];                    
+         if ( divElement.offsetWidth > 800 ) 
+         { vizElement.style.width='1200px';vizElement.style.height='800px';} 
+         else if ( divElement.offsetWidth > 500 ) 
+         { vizElement.style.width='1600px';vizElement.style.height='1027px';} 
+         else 
+         { vizElement.style.width='100%';vizElement.style.height='1127px';}                     
+        var scriptElement = document.createElement('script');                   
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    </center>
+    <p id ="sub-heading">Visualization Goals</p>
+    <center>
+    <p id ="desc">The Goal of the Visualization is to effectively communicate insights and trends related to the
+        performance and characteristics of different mutual funds. To provide investors and other stakeholders with 
+        a clear and compelling picture of the returns provided by different funds, including the funds name, size, 
+        and performance over time and help viewers make more informed decisions about investing in mutual funds and better
+        understand the risks and rewards associated with investing in mutual funds.</p>
+    </center>
+    <p id ="sub-heading">Intended Audience</p>
+    <center>
+    <p id ="desc">Investor, people who are actively involved in investing and also people who are new to investing.
+        Also financial analysts, journalists, etc. </p>
+    </center>
+    <p id ="sub-heading">Data Source</p>
+    <center>
+    <p id ="desc">The data for this visualization has been taken from <a href="https://www.tickertape.in/screener/mutual-fund" id = "src">Tickertape</a>.</p>
+    </center>
+
+    <div id="footer">
+        <p id="lst">Project has been done as a part of the efforts of 18CSE301J - Information Visualization under</p>
+           <p id ="lst"> Dr. Parthiban N. and Dr. Kavitha V.</p>
+    </div>
+</body>
+</html>
